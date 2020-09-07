@@ -129,7 +129,8 @@ padding-left: 0;
 display: block;
 padding-top: 32px;
 padding-bottom: 32px;
- color: var(--title-text-color);
+color: var(--title-text-color);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu .items {
@@ -160,7 +161,6 @@ background-color: #2196F3;
 
 .menu-link:hover, .menu-link:focus {
 color: var(--accent-color);
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 /* .menu-link:active {
@@ -185,14 +185,14 @@ letter-spacing: 0.02em;
 display: inline-flex;
 align-items: center;
 color: var(--primary-text-color);
-fill:#757575
-
+fill:#757575;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
 .contact-link:hover, contact-link:focus {
 color:var(--accent-color);
 fill:#2196F3;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .contact-text {
@@ -617,12 +617,13 @@ justify-content: center;
 background-color: rgba(255, 255, 255, 0.1);
 border-radius: 50%;
 fill:#ffffff;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover, .social-link:focus {
     background-color: #2196F3;
     fill:#ffffff;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 
 }
 
@@ -633,6 +634,10 @@ fill:#ffffff;
     align-items: center;
     justify-content: center;
     fill:#afb1b8;
+    border-radius: 50%;
+    /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 
@@ -640,8 +645,6 @@ fill:#ffffff;
     fill:#FFFFFF;
     background-color: #2196F3;
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon .items + .items {
@@ -657,14 +660,14 @@ fill:#ffffff;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     fill:#afb1b8;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
 .client-list-link:hover, .client-list-link :focus {
     fill:#2196F3;
     border-color: #2196F3;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .items-box-1 {
