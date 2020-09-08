@@ -501,15 +501,17 @@ margin-left:30px;
 
 /* Футер */
 .footer {
-display: flex;
-align-items: baseline;
-width: 1200px;
-margin-left: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: baseline;
+ width: 1200px;
+ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
-padding-right: 15px;
+padding-right: 15px;    
 padding-top: 60px;
 padding-bottom: 60px;
+}
 }
 
 .marg {
