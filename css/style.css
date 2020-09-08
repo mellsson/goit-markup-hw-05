@@ -767,3 +767,27 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 cursor: pointer;
 }
+
+.footer-form-action .button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+
+
+.footer-form-action input {
+min-width: 358px;
+min-height: 50px;
+border: 1px solid rgba(165, 165, 165, 0.3);
+border-radius: 4px;
+background: transparent;
+padding-left: 16px;
+color: var(--button-color);
+}
+
+.footer-botton_icon {
+margin-left: 10px;
+fill:#ffffff;
+
+}
